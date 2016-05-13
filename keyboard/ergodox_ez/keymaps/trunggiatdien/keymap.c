@@ -38,7 +38,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  C_A_T(KC_CAPSLOCK),    KC_A,              KC_S,              KC_D,     KC_F,   KC_G,
  SFT_T(KC_MINS),        KC_Z,              KC_X,              KC_C,     KC_V,   KC_B,   KC_LBRC,
  CTL_T(KC_LEFT),        LT(SYMB,KC_LBRC),  LT(MDIA,KC_RBRC),  KC_LALT,	KC_LGUI, 
-                                                                        KC_GRAVE,       KC_SLASH,
+                                                                        KC_BSLASH,       KC_SLASH,
                                                                                         KC_F4,
                                                                           ALT_T(KC_SPC),KC_DELT,KC_F5,
  // right hand
@@ -49,7 +49,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                            KC_FN1,         KC_FN2,       KC_LEFT,KC_DOWN,          KC_RIGHT,
       KC_EQL,        KC_MINS,
       KC_F6,
-      KC_F7,KC_BSPC, KC_ENT
+      KC_F7,LT(MDIA,KC_BSPC), KC_ENT
     ),
 /* Keymap 1: Symbol Layer
  *
@@ -126,8 +126,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                   KC_TRNS, KC_TRNS, KC_TRNS,
     // right hand
        KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_MPLY,
-       KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-                 KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+       KC_TRNS,  KC_TRNS, KC_TRNS, KC_UP,   KC_TRNS, KC_TRNS, KC_TRNS,
+                 KC_TRNS, KC_LEFT, KC_DOWN, KC_RIGHT,KC_TRNS, KC_TRNS,
        KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_VOLU, KC_TRNS,
                           KC_TRNS, KC_TRNS, KC_MPRV, KC_VOLD, KC_MNXT,
        KC_TRNS, KC_TRNS,
