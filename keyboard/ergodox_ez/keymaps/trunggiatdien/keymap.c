@@ -36,20 +36,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  KC_ESC,                KC_1,              KC_2,              KC_3,     KC_4,   KC_5,   LT(SYMB,KC_GRV),
  KC_TAB,                KC_Q,              KC_W,              KC_E,     KC_R,   KC_T,   KC_HOME,
  C_A_T(KC_CAPSLOCK),    KC_A,              KC_S,              KC_D,     KC_F,   KC_G,
- SFT_T(KC_MINS),        KC_Z,              KC_X,              KC_C,     KC_V,   KC_B,   KC_LBRC,
- CTL_T(KC_LEFT),        LT(SYMB,KC_LBRC),  LT(MDIA,KC_RBRC),  KC_LALT,	KC_LGUI, 
+ SFT_T(KC_MINS),        KC_Z,              KC_X,              KC_C,     KC_V,   KC_B,     KC_LCBR,
+ CTL_T(KC_LEFT),        LT(SYMB,KC_LBRC),  LT(MDIA,KC_RBRC),  KC_LALT,  KC_LGUI,	 
                                                                         KC_BSLASH,       KC_SLASH,
-                                                                                        KC_F4,
-                                                                          ALT_T(KC_SPC),KC_DELT,KC_F5,
+                                                                                         KC_F4,
+                                                                          KC_SPC,KC_DELT,CTL_T(KC_F5),
  // right hand
       KC_QUOTE,    KC_6,   KC_7,           KC_8,         KC_9,   KC_0,             KC_ENT,
       KC_END,      KC_Y,   KC_U,           KC_I,         KC_O,   KC_P,             KC_PGUP,
                    KC_H,   KC_J,           KC_K,         KC_L,   KC_SCLN,          KC_PGDN,
-      KC_RBRC,     KC_N,   KC_M,           KC_COMM,      KC_DOT, KC_UP,            SFT_T(KC_EQL),
+      KC_RCBR,     KC_N,   KC_M,           KC_COMM,      KC_DOT, KC_UP,            SFT_T(KC_EQL),
                            KC_FN1,         KC_FN2,       KC_LEFT,KC_DOWN,          KC_RIGHT,
       KC_EQL,        KC_MINS,
       KC_F6,
-      KC_F7,LT(MDIA,KC_BSPC), KC_ENT
+      CTL_T(KC_F7),LT(MDIA,KC_BSPC), KC_ENT
     ),
 /* Keymap 1: Symbol Layer
  *
